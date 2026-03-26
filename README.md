@@ -1,25 +1,25 @@
 # Título do Projeto
 
-`CURSO`
+Análise e Desenvolvimento de Sistemas - PUC Minas
 
-`DISCIPLINA`
+Desenvolvimento de aplicação web front-end
 
-`SEMESTRE`
+1º semestre/2026
 
-[Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.]
+O objetivo geral deste projeto é criar uma solução digital para organizar e projetar finanças pessoais, fortalecendo a educação financeira e o planejamento individual, com impacto positivo no desenvolvimento socioeconômico.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+Ana Júlia Cerqueira Crisóstomo 
+Carolina Andrade dos Santos 
+João Pedro Almeida Moreira 
+João Vitor Soares Martins 
+Nirvana de Oliveira Barros 
+Tamires de Lima Leite
 
 ## Orientador
 
-* Nome completo do professor
+Joyce Christina de Paiva Carvalho
 
 # Documentação
 
