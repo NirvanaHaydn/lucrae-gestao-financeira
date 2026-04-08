@@ -1,35 +1,65 @@
 # Introdução
 
-[Aqui a equipe deve criar um texto descritivo com a visão geral do problema abordado, apresentando o ambiente e as situações envolvidas no problema.]
+A gestão financeira pessoal ainda representa um desafio significativo para grande parte da população. Apesar do amplo acesso a serviços bancários e meios digitais de pagamento, muitas pessoas não dispõem de ferramentas simples e estratégicas que permitam visualizar, planejar e projetar suas finanças com clareza.
+
+O cenário atual é caracterizado por múltiplas despesas recorrentes, uso frequente de crédito e, em muitos casos, renda variável. Nesse contexto, a falta de organização financeira compromete o equilíbrio mensal e dificulta decisões estratégicas que impactam diretamente o futuro financeiro dos indivíduos.
+
+Diante disso, este projeto propõe o desenvolvimento de uma aplicação web voltada ao controle financeiro inteligente, com foco não apenas no registro de dados, mas também na projeção de cenários e apoio à tomada de decisão.
+
 
 ## Problema
-[Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
+A falta de educação financeira representa um desafio relevante para a sociedade brasileira. Segundo a S&P Global Financial Literacy Survey (2022), o Brasil ocupa a 74ª posição entre 144 países em alfabetização financeira, evidenciando um baixo nível de conhecimento da população sobre o tema.
 
-Este link pode ajudar a equipe a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+Esse cenário impacta diretamente o cotidiano das pessoas, contribuindo para a falta de planejamento financeiro, o uso descontrolado do crédito e o atraso no pagamento de contas. Dados do 17º levantamento do Observatório Febraban (2025) mostram que 55% dos brasileiros afirmam entender pouco ou nada sobre educação financeira e 39% declaram estar endividados.
+
+Além disso, 61% da população utiliza frequentemente algum tipo de crédito, principalmente o cartão de crédito, o que, sem planejamento adequado, pode levar ao acúmulo de dívidas. Esse problema também afeta a saúde emocional: entre os endividados, 77% afirmam que as dívidas prejudicam sua qualidade de vida.
+
+Diante disso, torna-se evidente a importância de uma gestão financeira mais estratégica, que permita maior controle do dinheiro, planejamento futuro e formação de reservas, contribuindo para maior segurança financeira e melhor qualidade de vida.
 
 
 ## Objetivos
 
-[Aqui a equipe deve realizar uma descrição detalhada dos objetivos do trabalho, ressaltando quais as questões principais do problema a serem resolvidas pelo projeto, não é a hora de apresentar requisitos detalhados.]
- 
-Este link pode ajudar a equipe a entender mais sobre definição dos objetivos: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+O objetivo geral deste projeto é desenvolver uma solução digital voltada a auxiliar os usuários na organização, visualização e projeção de suas finanças pessoais, de modo a promover práticas de gestão mais eficientes, estratégicas e orientadas à tomada de decisão. Busca-se, com isso, contribuir para a superação das lacunas em educação financeira identificadas na sociedade brasileira, ampliando a capacidade de planejamento individual e promovendo impactos positivos no desenvolvimento socioeconômico coletivo.
+
+Como objetivos específicos, pode-se citar:
+
+•	o cadastro e categorização de receitas e despesas;
+
+•	disponibilizar visualização clara da situação financeira;
+
+•	oferecer relatórios e indicadores financeiros;
+
+•	permitir simulações de cenários financeiros;
+
+•	apoiar a tomada de decisão com base em dados.
+
+
 
 ## Justificativa
 
-[Aqui a equipe deve descrever a importância ou a motivação para trabalhar com o problema definido. Indique as razões pelas quais a equipe escolheu o problema e definiu os objetivos.
+A crescente inadimplência e a dificuldade da população em administrar suas finanças evidenciam a necessidade de soluções tecnológicas acessíveis. Aplicações digitais permitem maior controle, praticidade e autonomia, contribuindo para uma gestão financeira mais eficiente.
 
-Devem ser apresentados dados de fontes relevantes e confiáveis sobre o problema, inserindo-o como alvo de estudo. Sugere-se que a equipe utilize questionários, entrevistas e dados estatísticos, que devem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pela equipe.]
+De acordo com os indicadores de inadimplência de pessoas físicas, apurados pela Confederação Nacional de Dirigentes Lojistas (CNDL) e pelo Serviço de Proteção ao
+ 
+Crédito (SPC Brasil), em setembro de 2025 havia aproximadamente 71,86 milhões de consumidores negativados, o que corresponde a 43,14% da população adulta do país.
 
-Este link pode ajudar a equipe a formular a justificativa: [Como montar a justificativa.](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Nesse contexto, a utilização de ferramentas digitais configura-se como um recurso relevante, uma vez que possibilita o acesso a conteúdo de forma prática e acessível, além de oferecer vantagens relacionadas à portabilidade e à facilidade de uso, considerando que dispositivos conectados à internet permitem a transmissão de informações diretamente ao usuário.
+
+Observa-se que a principal dificuldade enfrentada pela população não se restringe à escassez de recursos financeiros, mas está relacionada, sobretudo, à ausência de uma visão estruturada sobre a gestão das próprias finanças. Dessa forma, ao propor uma solução que integre funcionalidades de controle, visualização e projeção de cenários financeiros, este projeto busca atender a uma demanda concreta e crescente por maior autonomia e inteligência financeira.
+
+Adicionalmente, a proposta contribui para a adoção de práticas de gestão pessoal mais sustentáveis e eficazes, promovendo o planejamento financeiro adequado, a redução dos riscos de endividamento e a construção gradual de patrimônio. Assim, evidencia-se uma oportunidade significativa no mercado para o desenvolvimento de soluções que ultrapassem o simples registro de despesas, considerando que o usuário contemporâneo demanda clareza, previsibilidade e suporte estratégico na administração de suas finanças.
+
 
 ## Público-Alvo
 
-[Aqui é necessário descrever os atores envolvidos no problema, destacando os diferentes perfis de usuários. O propósito é apresentar as características, necessidades, conhecimentos prévios e experiência com a tecnologia do público-alvo.
+O sistema é destinado a usuários que desejam organizar suas finanças pessoais, incluindo:
 
-Sugere-se que a equipe utilize questionários e/ou entrevistas a fim de conhecer os atores que compõem o público alvo.]
+•	Pessoas com renda fixa ou variável
 
-Os links abaixo podem ajudar a equipe a conhecer um pouco mais sobre o público-alvo. 
+•	Estudantes e jovens profissionais
 
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
+•	Indivíduos endividados
 
+•	Usuários interessados em planejamento financeiro e investimentos
+
+O problema afeta especialmente momentos críticos como fechamento do mês, pagamento de contas, decisão sobre compras e planejamento de investimentos. Também impacta diretamente a segurança emocional relacionada ao dinheiro.
