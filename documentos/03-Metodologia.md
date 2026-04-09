@@ -1,7 +1,7 @@
 
 # Metodologia
 
-Esta seção descreve a organização da equipe para a execução das tarefas do projeto e as ferramentas utilizadas para a manutenção dos códigos e demais artefatos.
+A metodologia escolhida para o desenvolvimento do projeto foi o Scrum, por se tratar de um framework ágil que favorece entregas incrementais e colaborativas. De acordo com o Guia Definitivo para o Scrum, “Scrum: um framework dentro do qual pessoas podem tratar e resolver problemas complexos e adaptativos, enquanto produtiva e criativamente entregam produtos com o mais alto valor possível.”
 
 
 ## Gerenciamento de Projeto
