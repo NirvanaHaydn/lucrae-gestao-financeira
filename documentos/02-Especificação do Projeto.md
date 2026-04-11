@@ -58,12 +58,11 @@
 
 ### Requisitos não Funcionais
 
-[Utilize o modelo de tabela abaixo para apresentar os requisitos não-funcionais]
-
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|
-| RNF-01 |  ...                    | ...   | 
-| ...    |  ...                    | ...   | 
+| RNF-01 |  O sistema deve possuir interface responsiva capaz de se adaptar a diferentes tamanhos de tela, permitindo seu uso em dispositivos como computadores, smartphones e tablets. | ALTA  | 
+| RNF-02 |  O sistema deve funcionar corretamente nos navegadores modernos como Google Chrome, Mozilla Firefox, Microsoft Edge e Safari. | ALTA  | 
+| RNF-03 |  O sistema deve possuir interface simples e intuitiva para facilitar o uso pelos usuários. | ALTA  |
 
 **Prioridade: Alta / Média / Baixa. 
 
