@@ -7,15 +7,15 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil Nome </th>
+<th colspan="2">Perfil: Construtor de Patrimônio </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">...</td>
+<td width="600px">Usuário que gerencia finanças pessoais com foco em estabilidade e crescimento, utilizando controle sistemático, metas financeiras e decisões baseadas em dados.</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>Garantir contas em dia, Eliminar dívidas, Construir reserva de emergência, Alocar em investimentos seguros, Monitorar cenário econômico, Diversificar gradualmente, Planejar crescimento de patrimônio</td>
 </tr>
 </tbody>
 </table>
