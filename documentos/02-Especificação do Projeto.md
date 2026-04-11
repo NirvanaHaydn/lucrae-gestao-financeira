@@ -2,8 +2,6 @@
 
 ## Perfis de Usuários
 
-[Enumere e faça o detalhamento dos perfis de usuários. Utilize o modelo de tabela abaixo para sintetizá-los.]
-
 <table>
 <tbody>
 <tr align=center>
@@ -15,7 +13,15 @@
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>Garantir contas em dia, Eliminar dívidas, Construir reserva de emergência, Alocar em investimentos seguros, Monitorar cenário econômico, Diversificar gradualmente, Planejar crescimento de patrimônio</td>
+<td>
+•	Garantir contas em dia
+•	Eliminar dívidas
+•	Construir reserva de emergência
+•	Alocar em investimentos seguros
+•	Monitorar cenário econômico
+•	Diversificar gradualmente
+•	Planejar crescimento de patrimônio
+</td>
 </tr>
 </tbody>
 </table>
