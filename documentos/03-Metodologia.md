@@ -68,9 +68,9 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | [http://....             ](https://github.com/ICEI-PUC-Minas-PMV-ADS/proj-gestao-financeira-2026-ads/tree/main/codigo-fonte)|
-| Documentos do projeto               | GitHub                             | http://....                            |
-| Projeto de Interface                | Figma                              | http://....                            |
-| Gerenciamento do Projeto            | GitHub Projects                    | http://....                            |
+| Documentos do projeto               | GitHub                             | [http://.... ](https://github.com/ICEI-PUC-Minas-PMV-ADS/proj-gestao-financeira-2026-ads/blob/main/README.md)|
+| Projeto de Interface                | Marvel                             | [http://.... ](https://marvelapp.com/prototype/d2be175/screen/98646269)|
+| Gerenciamento do Projeto            | GitHub Projects                    | [http://....](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/2827)|
 | Hospedagem                          | GitHub Pages                       | http://....                            |
 
 
