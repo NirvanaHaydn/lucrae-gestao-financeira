@@ -12,11 +12,11 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 ### Divisão de Papéis
 
 A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
-[Adicione informações abaixo sobre a divisão de papéis entre os membros da equipe.]
-- Scrum Master: [Nome de um membro da equipe, principal responsável pela gestão do projeto.]
-- Product Owner: [Nome de um membro da equipe, representante dos interesses de todos os envolvidos (Stakeholders), define as funcionalidades do produto e prioriza os itens de Product Backlog.]
-- Equipe de Desenvolvimento: [Nomes de todos os membros da equipe, pois todos os membros deverão implementar uma tela/funcionalidade.]
-- Equipe de Design: [Nomes dos membros da equipe que trabalharão com design.]
+
+- Scrum Master: João Pedro Almeida Moreira.
+- Product Owner: Carolina Andrade dos Santos.
+- Equipe de Desenvolvimento: Ana Júlia Cerqueira Crisóstomo,  Carolina Andrade dos Santos, João Pedro Almeida Moreira, João Vitor Soares Martins, Nirvana de Oliveira Barros, Tamires de Lima Leite.
+- Equipe de Design: Nirvana de Oliveira Barros, João Vitor Soares Martins.
 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu 
@@ -25,7 +25,7 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 
 ### Processo
 
-A equipe utiliza o GitHub Projects para o acompanhamento do desenvolvimento do projeto. [Adicione informações sobre detalhes da implementação do Scrum seguido pela equipe. A equipe deve fazer uso do GitHub Project para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução. O quadro Kanban deverá apresentar a estrutura abaixo. Inserir depois das informações uma imagem do Kanban do projeto. Será importante apresentar o status do Kanban em todas as reuniões com o Professor regente.]
+A equipe utiliza o GitHub Projects para o acompanhamento do desenvolvimento do projeto.
 
 - Backlog: Esta coluna representa o Product Backlog e recebe as Tarefas do Projeto a serem trabalhadas. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
 - To Do: Esta coluna representa o Sprint Backlog, ou seja, a lista das Tarefas da Etapa. As tarefas do To Do devem ser definidas e distribuídas para os integrantes da equipe no início de cada Etapa.
@@ -61,16 +61,22 @@ A equipe utiliza o GitHub Projects para o acompanhamento do desenvolvimento do p
   
 ### Ferramentas
 
-[Descreva aqui as ferramentas empregadas no projeto e os ambiente de trabalho utilizados pela  equipe para desenvolvê-lo. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).]
+As ferramentas empregadas no projeto são:
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
+- Editor de código - Visual Studio Code.
+- Ferramentas de comunicação - Microsoft Teams
+- Ferramentas de desenho de tela - MarvelApp
+
+O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
+
+Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub e MarvelApp e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | http://....                            |
-| Documentos do projeto               | GitHub                             | http://....                            |
-| Projeto de Interface                | Figma                              | http://....                            |
-| Gerenciamento do Projeto            | GitHub Projects                    | http://....                            |
+| Repositório de código fonte         | GitHub                             | [http://....             ](https://github.com/ICEI-PUC-Minas-PMV-ADS/proj-gestao-financeira-2026-ads/tree/main/codigo-fonte)|
+| Documentos do projeto               | GitHub                             | [http://.... ](https://github.com/ICEI-PUC-Minas-PMV-ADS/proj-gestao-financeira-2026-ads/blob/main/README.md)|
+| Projeto de Interface                | MarvelApp                          | [http://.... ](https://marvelapp.com/prototype/d2be175/screen/98646269)|
+| Gerenciamento do Projeto            | GitHub Projects                    | [http://....](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/2827)|
 | Hospedagem                          | GitHub Pages                       | http://....                            |
 
 
