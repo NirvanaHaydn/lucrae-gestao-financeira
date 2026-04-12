@@ -1,6 +1,6 @@
 # 📊 Relatório de Contribuições do Projeto
 
-**Última atualização:** 12/04/2026 17:30
+**Última atualização:** 12/04/2026 17:46
 
 ---
 
@@ -9,14 +9,14 @@
 | Aluno                 |   Commits |   Linhas+ |   Linhas- |   Arquivos |   Docs Commits |   Docs Arquivos |
 |-----------------------|-----------|-----------|-----------|------------|----------------|-----------------|
 | João Vitor            |         9 |        54 |        33 |          1 |              9 |               0 |
-| Tamires Lima          |         8 |       151 |        69 |         14 |              8 |               3 |
-| github-actions[bot]   |         8 |        82 |        32 |          3 |              8 |               1 |
+| Tamires Lima          |         9 |       171 |        80 |         14 |              9 |               3 |
+| github-actions[bot]   |         9 |        86 |        36 |          3 |              9 |               1 |
 | github-classroom[bot] |         1 |       774 |         0 |         19 |              1 |               3 |
 
 
 ## 📅 Contribuições Semanais (Todo o Semestre)
 
-**2026-04-05**: João Vitor: 9, Tamires Lima: 6, github-actions[bot]: 8
+**2026-04-05**: João Vitor: 9, Tamires Lima: 7, github-actions[bot]: 9
 
 **2026-03-22**: Tamires Lima: 2
 
