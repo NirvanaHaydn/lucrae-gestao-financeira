@@ -34,7 +34,7 @@ A equipe utiliza o GitHub Projects para o acompanhamento do desenvolvimento do p
 - Testing: Esta coluna representa as Tarefas da Etapa em Revisão e/ou Teste. O integrante definido pela equipe revisa/testa a Tarefa do colega e, logo em seguida, apresenta na descrição da tarefa os resultados obtidos. O integrante que desenvolveu a Tarefa que apresenta revisões a serem realizadas deve aprimorar a sua Tarefa a partir das observações recebidas antes de movê-la para Done.
 - Done: Esta coluna representa as Tarefas concluídas, considerando que as Tarefas passaram pelos testes, foram aprimoradas pelos feedbacks obtidos nas revisões/testes e estão prontas para ser entregues.
 
-[Adicione uma imagem do Kanban do projeto]
+![Quadro Kanbam](imguserflow/Kanbam.jpeg)
 
 > **Links Úteis**:
 > - [Planejamento de projetos para desenvolvedores](https://github.com/features/project-management/)

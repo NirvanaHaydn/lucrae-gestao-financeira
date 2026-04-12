@@ -6,7 +6,7 @@ O fluxograma da abaixo ilustra o percurso de interação do usuário pelas difer
 
 ![User Flow](imguserflow/Userflow.png)
 
-    Figura 1 - Fluxo de telas do usuário 
+    Figura 1 - Tela Fluxo de telas do usuário 
 
 
 
@@ -24,7 +24,7 @@ As telas do sistema seguem uma estrutura padronizada, ilustrada a baixo. Essa co
 
 ![Prototipo](imguserflow/Prototipo.png)
 
-    Figura 2 - Estrutura da aplicação
+    Figura 2 - Tela Estrutura da aplicação
 
 ### Protótipo de baixa fidelidade
 
@@ -38,7 +38,7 @@ A página inicial apresenta uma composição organizada em seções visuais que 
 
 ![Tela – Home Page](imguserflow/Telainicial01.jpeg)
 
-    Figura 3 - Estrutura da Home Page
+    Figura 3 - Tela Estrutura da Home Page
 
 
 
@@ -73,7 +73,7 @@ A tela de notícias apresenta conteúdos atualizados sobre o mercado financeiro,
 
 ![Tela – Notícias sobre Finanças](imguserflow/Noticias06.jpeg)
 
-    Figura 7 - TNotícias sobre Finanças.
+    Figura 7 - Tela Notícias sobre Finanças.
 
 Tela – Educação Financeira
 
@@ -82,3 +82,11 @@ A tela de educação financeira disponibiliza conteúdos voltados para o aprendi
 ![Tela – Educação Financeira](imguserflow/Educacao07.jpeg)
 
     Figura 8 - Tela Notícias sobre Educação Financeira.
+
+Tela de Criação de Perfil – Novo Usuário 
+
+Esta tela tem como finalidade registrar os dados iniciais do usuário e habilitar o acesso ao ambiente de Educação Financeira.
+
+![Tela – Educação Financeira](imguserflow/Cadastro03.jpeg)
+
+    Figura 9 - Tela de Criação de Perfil – Novo Usuário.
