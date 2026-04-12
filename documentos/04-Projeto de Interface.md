@@ -4,7 +4,7 @@ O fluxograma da abaixo ilustra o percurso de interação do usuário pelas difer
 
 ## User Flow
 
-![User Flow](imguserflow/Userflow.png)
+![User Flow](imguserflow/userflow.jpeg)
 
     Figura 1 - Tela Fluxo de telas do usuário 
 
@@ -22,7 +22,7 @@ As telas do sistema seguem uma estrutura padronizada, ilustrada a baixo. Essa co
 •	Rodapé: seção inferior que contém informações institucionais e de direitos autorais.
 
 
-![Prototipo](imguserflow/Prototipo.png)
+![Prototipo](imguserflow/prototipo.jpeg)
 
     Figura 2 - Tela Estrutura da aplicação
 
