@@ -1,35 +1,80 @@
 
 # Projeto de Interface
+O fluxograma da abaixo ilustra o percurso de interação do usuário pelas diferentes telas do sistema.
 
 ## User Flow
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de navegação do usuário na aplicação. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
+![Tela Home](imguserflow/Telainicial01.jpeg)
+![Tela de Login](imguserflow/Login02.jpeg)
+![Tela de Cadastro Novo Usuario](imguserflow/Cadastro03.jpeg)
+![Tela Usuario Logado](imguserflow/Telausuario04.jpeg)
+![Tela de Cadastro de Despesas](imguserflow/Telausuariodespesas05.jpeg)
+![Tela de Noticias](imguserflow/Noticias06.jpeg)
+![Tela Educacao Financeira](imguserflow/Educacao07.jpeg)
+Figura 1 - Fluxo de telas do usuário 
 
-[Adicione aqui o diagrama de fluxo de usuário da sua aplicação.] 
 
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
 
 ## Protótipo
 
-Desenvolver um protótipo emerge como uma das maneiras mais ágeis e econômicas de validar uma ideia, conceito ou funcionalidade. Isso permite a interação, avaliação, modificação e aprovação das principais características de uma interface antes de entrar na fase de desenvolvimento. [Leia o artigo [Protótipos: baixa, média ou alta fidelidade?](https://medium.com/ladies-that-ux-br/prot%C3%B3tipos-baixa-m%C3%A9dia-ou-alta-fidelidade-71d897559135).]
+As telas do sistema seguem uma estrutura padronizada, ilustrada a baixo. Essa composição é organizada em três grandes blocos, descritos a seguir:
+
+    Cabeçalho: área superior que apresenta o nome da aplicação web e o menu principal de navegação.
+
+    Conteúdo: região central destinada à exibição das informações e funcionalidades específicas de cada tela.
+
+    Rodapé: seção inferior que contém informações institucionais e de direitos autorais
+
+![Prototipo](imguserflow/Prototipo.png)
+Figura 2 - Estrutura da aplicação
 
 ### Protótipo de baixa fidelidade
 
-Protótipos de baixa fidelidade apresentam de forma simplificada o design da interface e o relacionamento entre suas páginas, permitindo evolução da proposta da solução. Neste projeto, os utilizaremos para apoiar a validação dos requisitos e efetuar mudanças dos mesmos, caso seja necessário, para menor impacto na codificação da aplicação.
+Tela – Home Page
 
-[Elabore as principais interfaces gráficas da aplicação de modo que os requisitos funcionais sejam contemplados nas telas propostas.]
+A página inicial apresenta uma composição organizada em seções visuais que destacam os principais recursos da aplicação.
 
-[Adicione aqui as telas da sua aplicação com seus devidos títulos.] 
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
->- Ferramentas:
->> - [Pencil](https://pencil.evolus.vn/)
->> - [MarvelApp](https://marvelapp.com/)
->> - [Figma](https://www.figma.com/)
+•	Apresenta a funcionalidade de cálculo de gastos e rendimentos do usuário.
+•	Disponibiliza recursos para administrar melhor as despesas pessoais.
+•	Oferece orientações e possibilidades para otimizar a aplicação das finanças do usuário.
+
+![Tela – Home Page](imguserflow/Telainicial01.jpeg)
+Figura 3 - Estrutura da Home Page
 
 
 
+Tela – Login
+
+A tela de Login apresenta campos para a inserção do e-mail e da senha, e a funcionalidade de manter-se logado. 
+
+![Tela – Login](imguserflow/Login02.jpeg)
+Figura 4 - Tela de acesso do usuario a sua conta.
+
+Tela – Usuário Logado
+
+A tela de usuário logado apresenta a área personalizada do sistema, exibindo informações do perfil, opções de navegação específicas e acesso rápido às principais funcionalidades da aplicação.
+
+![Tela – Usuário Logado](imguserflow/Telausuario04.jpeg)
+Figura 5 - Tela do usuario logado.
+
+
+Tela - Cadastro de Despesas
+
+A tela de cadastro de despesas foi projetada para facilitar o controle financeiro do usuário. Sua organização segue a estrutura padrão do sistema, composta por cabeçalho, conteúdo e rodapé.
+
+![Tela – Cadastro de despesas](imguserflow/Telausuariodespesas05.jpeg)
+Figura 6 - Tela de cadastro de despesas do usuario.
+
+Tela – Notícias sobre Finanças
+
+A tela de notícias apresenta conteúdos atualizados sobre o mercado financeiro, economia e educação financeira. Nela, o usuário pode acessar artigos, comunicados e informações relevantes que auxiliam na tomada de decisões e no melhor gerenciamento de suas finanças.
+
+![Tela – Notícias sobre Finanças](imguserflow/Noticias06.jpeg)
+Figura 7 - TNotícias sobre Finanças.
+
+Tela – Educação Financeira
+
+A tela de educação financeira disponibiliza conteúdos voltados para o aprendizado e conscientização sobre o uso do dinheiro. Nela, o usuário encontra artigos, dicas práticas e materiais educativos que auxiliam na construção de hábitos financeiros mais saudáveis e na tomada de decisões responsáveis.
+
+![Tela – Educação Financeira](imguserflow/Educacao07.jpeg)
+Figura 8 - TNotícias sobre Educação Financeira.
