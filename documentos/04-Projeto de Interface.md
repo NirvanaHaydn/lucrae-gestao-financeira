@@ -4,13 +4,8 @@ O fluxograma da abaixo ilustra o percurso de interação do usuário pelas difer
 
 ## User Flow
 
-![Tela Home](imguserflow/Telainicial01.jpeg)
-![Tela de Login](imguserflow/Login02.jpeg)
-![Tela de Cadastro Novo Usuario](imguserflow/Cadastro03.jpeg)
-![Tela Usuario Logado](imguserflow/Telausuario04.jpeg)
-![Tela de Cadastro de Despesas](imguserflow/Telausuariodespesas05.jpeg)
-![Tela de Noticias](imguserflow/Noticias06.jpeg)
-![Tela Educacao Financeira](imguserflow/Educacao07.jpeg)
+![User Flow](imguserflow/Userflow.png)
+
 Figura 1 - Fluxo de telas do usuário 
 
 
@@ -77,4 +72,4 @@ Tela – Educação Financeira
 A tela de educação financeira disponibiliza conteúdos voltados para o aprendizado e conscientização sobre o uso do dinheiro. Nela, o usuário encontra artigos, dicas práticas e materiais educativos que auxiliam na construção de hábitos financeiros mais saudáveis e na tomada de decisões responsáveis.
 
 ![Tela – Educação Financeira](imguserflow/Educacao07.jpeg)
-Figura 8 - TNotícias sobre Educação Financeira.
+Figura 8 - Tela Notícias sobre Educação Financeira.
