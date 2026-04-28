@@ -1,4 +1,4 @@
-# Título do Projeto
+# Lucraê
 
 Análise e Desenvolvimento de Sistemas - PUC Minas
 
