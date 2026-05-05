@@ -1,5 +1,5 @@
 document.getElementById("navbar").innerHTML = `
-<nav class="navbar navbar-expand-lg navbar-custom">
+<nav class="navbar navbar-expand-lg navbar-custom fixed-top">
     <div class="container">
         <a class="navbar-brand" href="index.html">
     <img src="../documentos/imguserflow/logo_nova.png" alt="Lucraê" class="logo">
