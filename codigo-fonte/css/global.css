@@ -1,3 +1,4 @@
+
 html, body {
     height: 100%;
     margin: 0;
@@ -5,25 +6,25 @@ html, body {
 
 body {
     display: flex;
+    background-color: #092c1f;
     flex-direction: column;
     font-family: 'Junge', serif;
     font-size: 18px;
-    color: #000;
+    color: #ffffff;
 }
 main {
     flex: 1;
 }
 
 .navbar-custom {
-    grid-area: nav;
-    background-color: #58A92E;
+    background-color: #f2f2f2;
     padding: 8px 0;
-    
+    color: #092c1f;
 }
 
 .navbar-brand {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .logo {
@@ -33,16 +34,15 @@ main {
 }
 
 .footer-custom {
-    grid-area: footer;
-    background-color: #58A92E;
+    background-color: #f2f2f2;
     text-align: center;
     padding: 20px;
-    align-items: end;
+    color: #092c1f;
 }
 
 .main-content {
     flex: 1;
-    background: #D9D9D9;
+    background: #092c1f;
 }
 
 .content-box {
@@ -64,12 +64,13 @@ main {
 
 .feature-text {
     font-size: 15px;
-    color: #555;
+    color: #f2f2f2;
     margin-top: 10px;
     padding: 0 10px;
 }
 
 .row {
+    color: #f2f2f2;
     row-gap: 40px;
 }
 
@@ -77,15 +78,23 @@ h1 {
     font-size: 2.5rem;
 }
 
+h3{
+    font-size: 15px;
+    color: #092c1f;
+}
+
 h5 {
     font-weight: bold;
 }
 
 p {
+    color: #f2f2f2;
     line-height: 1.6;
 }
 .btn {
     border-radius: 6px;
+    background-color: #f2f2f2;
+    color: #092c1f;
 }
 .title-logo {
     height: 80px; /* controla o tamanho */
