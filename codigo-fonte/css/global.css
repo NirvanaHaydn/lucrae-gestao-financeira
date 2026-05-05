@@ -10,14 +10,15 @@ body {
     font-size: 18px;
     color: #000;
 }
-
 main {
     flex: 1;
 }
 
 .navbar-custom {
+    grid-area: nav;
     background-color: #58A92E;
     padding: 8px 0;
+    
 }
 
 .navbar-brand {
@@ -32,9 +33,11 @@ main {
 }
 
 .footer-custom {
+    grid-area: footer;
     background-color: #58A92E;
     text-align: center;
     padding: 20px;
+    align-items: end;
 }
 
 .main-content {
