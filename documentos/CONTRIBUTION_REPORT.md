@@ -1,6 +1,6 @@
 # 📊 Relatório de Contribuições do Projeto
 
-**Última atualização:** 05/05/2026 05:04
+**Última atualização:** 05/05/2026 21:37
 
 ---
 
@@ -8,24 +8,22 @@
 
 | Aluno                      |   Commits |   Linhas+ |   Linhas- |   Arquivos |   Docs Commits |   Docs Arquivos |
 |----------------------------|-----------|-----------|-----------|------------|----------------|-----------------|
-| João Almeida               |         1 |       458 |        12 |         29 |              0 |               0 |
+| João Almeida               |         2 |       479 |        22 |         33 |              0 |               0 |
 | João Pedro Almeida Moreira |         4 |        22 |        16 |          1 |              4 |               1 |
 | João Vitor                 |        11 |        56 |        35 |          3 |             11 |               2 |
 | Nirvana Oliveira           |         3 |       213 |        14 |          7 |              1 |               0 |
 | Tamires Lima               |        13 |       188 |        89 |         20 |             13 |               3 |
-| github-actions[bot]        |        19 |       150 |        91 |          3 |             19 |               1 |
+| github-actions[bot]        |        20 |       159 |       100 |          3 |             20 |               1 |
 | github-classroom[bot]      |         1 |       774 |         0 |         19 |              1 |               3 |
 
 
 ## 📅 Contribuições Semanais (Todo o Semestre)
 
-**2026-04-28**: João Vitor: 1, Nirvana Oliveira: 3, Tamires Lima: 1, github-actions[bot]: 2
+**2026-04-28**: João Almeida: 1, João Vitor: 1, Nirvana Oliveira: 3, Tamires Lima: 1, github-actions[bot]: 3
 
 **2026-04-21**: João Almeida: 1, github-actions[bot]: 1
 
-**2026-04-14**: João Vitor: 1, github-actions[bot]: 1
-
-**2026-04-07**: João Pedro Almeida Moreira: 4, João Vitor: 9, Tamires Lima: 10, github-actions[bot]: 15
+**2026-04-07**: João Pedro Almeida Moreira: 4, João Vitor: 10, Tamires Lima: 10, github-actions[bot]: 16
 
 **2026-03-24**: Tamires Lima: 2
 
