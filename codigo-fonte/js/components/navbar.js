@@ -1,7 +1,9 @@
 document.getElementById("navbar").innerHTML = `
 <nav class="navbar navbar-expand-lg navbar-custom">
     <div class="container">
-        <a class="navbar-brand" href="#">Lucraê</a>
+        <a class="navbar-brand" href="#">
+    <img src="../documentos/imguserflow/logo_nova.png" alt="Lucraê" class="logo">
+</a>
 
         <div class="d-flex">
             <a href="index.html" class="nav-link me-3">Home</a>
@@ -11,4 +13,11 @@ document.getElementById("navbar").innerHTML = `
         </div>
     </div>
 </nav>
+`;
+document.getElementById("footer").innerHTML = `
+<footer class="footer-custom">
+    <div class="container">
+        <p>© 2026 Lucraê | Grupo 2 - Todos os direitos reservados</p>
+    </div>
+</footer>
 `;
