@@ -14,7 +14,7 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
 
 - Scrum Master: João Pedro Almeida Moreira.
-- Product Owner: Carolina Andrade dos Santos.
+- Product Owner: Nirvana de Oliveira Barros.
 - Equipe de Desenvolvimento: Ana Júlia Cerqueira Crisóstomo,  Carolina Andrade dos Santos, João Pedro Almeida Moreira, João Vitor Soares Martins, Nirvana de Oliveira Barros, Tamires de Lima Leite.
 - Equipe de Design: Nirvana de Oliveira Barros, João Vitor Soares Martins.
 
