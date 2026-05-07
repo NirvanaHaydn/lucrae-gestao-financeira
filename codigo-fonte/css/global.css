@@ -111,3 +111,12 @@ p {
     width: auto;
     object-fit: contain;
 }
+
+.card-about{
+    background-color: #092c1f;
+    border: none;
+}
+
+.about {
+    color: #092c1f;
+}
