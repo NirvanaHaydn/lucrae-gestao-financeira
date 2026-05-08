@@ -1,12 +1,39 @@
-**Exemplo da tela de cadastro:**
+**Tela de cadastro:**
 
-Implementação da aplicação descritas por meio dos requisitos codificados. 
+Responsável: Tamires
 
-[Utilize a estrutura abaixo para cada funcionalidade entregue na etapa]
+![User Flow](pagcadastrousuario/imguserflow.jpeg)
 
-### Título da funcionalidade
+Requisitos atendidos:
 
-[Adicione imagem da funcionalidade/tela]
+RF-001: O site deve permitir ao usuário cadastrar uma conta.
+
+Artefatos da funcionalidade
+
+●register.html
+
+●global.css
+
+●dashboard.css
+
+**Tela de acesso:**
+
+Responsável: Tamires
+
+![User Flow](pagloginusuario/imguserflow.jpeg)
+
+Requisitos atendidos:
+
+RF-001: O site deve permitir ao usuário cadastrar uma conta.
+
+Artefatos da funcionalidade
+
+●login.html
+
+●global.css
+
+●dashboard.css
+
 
 
 #### Requisito atendido
