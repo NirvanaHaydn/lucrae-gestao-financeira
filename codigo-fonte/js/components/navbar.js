@@ -1,8 +1,9 @@
 document.getElementById("navbar").innerHTML = `
 <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="index.html">
-    <img src="../documentos/imguserflow/logo_nova.png" alt="Lucraê" class="logo">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+    <img src="/assets/img/logo/LogoVerde.png" alt="Lucraê" class="logo me-2">
+    <span>Lucraê</span>
 </a>
 
         <div class="d-flex">
