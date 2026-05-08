@@ -16,7 +16,7 @@ Artefatos da funcionalidade
 
 ●dashboard.css
 
-**Tela de acesso:**
+**Tela de acesso:**git commit -m "Programaçao de funcionalidades"
 
 Responsável: Tamires
 
