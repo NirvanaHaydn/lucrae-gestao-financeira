@@ -111,6 +111,7 @@ p {
     object-fit: contain;
 }
 
+<<<<<<< HEAD
 #formularios {
     color: #092c1f;
 }
@@ -142,4 +143,14 @@ p {
 
 textarea{
     resize: none;
+
+}
+
+.card-about{
+    background-color: #092c1f;
+    border: none;
+}
+
+.about {
+    color: #092c1f;
 }
