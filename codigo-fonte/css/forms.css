@@ -1,0 +1,38 @@
+#formularios {
+    color: #092c1f;
+}
+
+
+.form-card {
+    width: 100%;
+    max-width: 500px;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+
+.form-title {
+    margin-bottom: 25px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+.checkbox-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+textarea {
+    resize: none;
+}
+
+
+.main-auth {
+    flex: 1;
+    padding: 40px 20px;
+}

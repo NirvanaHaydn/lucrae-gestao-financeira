@@ -13,19 +13,8 @@ Ana Júlia Cerqueira Crisóstomo
 
 Responsável por:
 
-
-
-
-
-=======================================================================================================================
-
-Carolina Andrade dos Santos
-
-Responsável por:
-
-
-
-
+Desenvolveu Expense-form.html
+Desenvolveu Income-form.html
 
 =======================================================================================================================
 
@@ -33,9 +22,9 @@ João Pedro Almeida Moreira
 
 Responsável por:
 
-
-
-
+Desenvolveu arquitetura
+Desenvolveu news.hmtl
+Desenvolveu education.hmtl
 
 =======================================================================================================================
 
@@ -43,9 +32,8 @@ João Vitor Soares Martins
 
 Responsável por:
 
-
-
-
+Estipulou padronização do projeto
+Desenvolveu about.html
 
 =======================================================================================================================
 
@@ -53,9 +41,8 @@ Nirvana de Oliveira Barros
 
 Responsável por:
 
-
-
-
+Estipulou padronização do projeto
+Desenvolveu index.html
 
 =======================================================================================================================
 
@@ -63,8 +50,7 @@ Tamires de Lima Leite
 
 Responsável por:
 
-
-
-
+Desenvolveu news.hmtl
+Desenvolveu education.hmtl
 
 =======================================================================================================================

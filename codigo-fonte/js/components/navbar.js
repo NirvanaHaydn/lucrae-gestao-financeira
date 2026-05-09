@@ -1,5 +1,5 @@
 document.getElementById("navbar").innerHTML = `
-<nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+<nav class="navbar navbar-expand-lg navbar-custom">
     <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="index.html">
     <img src="/assets/img/logo/LogoVerde.png" alt="Lucraê" class="logo me-2">
