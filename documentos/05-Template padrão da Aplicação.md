@@ -24,7 +24,7 @@ Figura 2 - Tela Noticias.
 
 ![User Flow](imguserflow/logo_nova.png)
 
-Figura  - LogoLogotipo da aplicação web LucraÊ 
+Figura  - Logotipo da aplicação web LucraÊ 
 
 
 Para a criação do logotipo do site foi utilizada a cor verde, escolhida por sua associação à prosperidade e ao sucesso financeiro. A figura de um jovem em postura confiante, segurando notas de dinheiro, foi selecionada para transmitir atitude, segurança e domínio sobre questões econômicas. O círculo com ornamentos ao redor reforça a ideia de identidade e marca registrada, criando um símbolo que remete diretamente à autoconfiança e ao alcance de objetivos relacionados à gestão financeira.
