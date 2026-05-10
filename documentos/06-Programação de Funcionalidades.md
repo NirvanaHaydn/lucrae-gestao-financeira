@@ -1,6 +1,6 @@
 **Tela de cadastro:**
 
-Responsável: Tamires
+
 
 ![User Flow](imguserflow/pagcadastrousuario.jpeg)
 Requisitos atendidos:
@@ -17,7 +17,6 @@ Artefatos da funcionalidade
 
 **Tela de acesso:**
 
-Responsável: Tamires
 
 ![User Flow](imguserflow/pagloginusuario.jpeg)
 
@@ -34,31 +33,19 @@ Artefatos da funcionalidade
 ●dashboard.css
 
 
+**Tela Usuario Logado:**
 
-#### Requisito atendido
+![User Flow](imguserflow/capusoteste.JPG)
 
-[RF-X: adicione a descrição do requisito atendido]
+RF-003: O usuário deve poder classificar as entradas e saídas financeiras em categorias.
 
+Artefatos da funcionalidade
 
-#### Artefatos da funcionalidade
+●dashboard.html
 
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
+●global.css
 
-
-#### Estrutura de Dados
-
-[Caso exista estrutura de dados, adicione aqui]
-
-
-#### Instruções de acesso
-
-[Adicione as orientações de acesso à funcionalidade]
-
-
-#### Responsável
-
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
-
+●dashboard.css
 
 
 
