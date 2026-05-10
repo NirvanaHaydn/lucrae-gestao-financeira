@@ -163,3 +163,92 @@ p {
     padding: 10px 16px;
     border-radius: 10px;
 }
+.dashboard-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+.dashboard-buttons {
+    gap: 20px;
+}
+
+.custom-dashboard-btn {
+    background-color: #ffffff;
+    color: #198754;
+    border: 1px solid #198754;
+
+    font-family: 'Junge', serif;
+    font-size: 1.2rem;
+
+    padding: 14px 24px;
+    border-radius: 12px !important;
+
+    transition: 0.2s ease;
+}
+
+.custom-dashboard-btn:hover {
+    background-color: #198754;
+    color: #ffffff;
+}
+.news-card {
+    border: none;
+    border-radius: 16px;
+
+    background-color: #f2f2f2;
+
+    padding: 10px;
+}
+
+.news-card .card-title {
+    color: #092c1f;
+
+    font-family: 'Junge', serif;
+
+    font-size: 1.8rem;
+
+    font-weight: bold;
+}
+
+.news-card .card-text {
+    color: #5f6b7a;
+
+    line-height: 1.7;
+}
+.dashboard-chart-card {
+
+    background-color: #f2f2f2;
+
+    border-radius: 24px;
+
+    padding: 35px;
+
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+#myChart {
+
+    max-width: 320px;
+
+    margin: 0 auto;
+}
+.dashboard-layout {
+
+    align-items: stretch;
+}
+.dashboard-chart-card,
+.news-card {
+
+    height: 100%;
+}
+.dashboard-chart-card {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: flex-start;
+}
+
+.dashboard-chart-card,
+.news-card {
+    min-height: 500px;
+}
