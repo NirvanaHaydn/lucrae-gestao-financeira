@@ -2,8 +2,7 @@
 
 Responsável: Tamires
 
-![User Flow](pagcadastrousuario/imguserflow.jpeg)
-
+![User Flow](imguserflow/pagcadastrousuario.jpeg)
 Requisitos atendidos:
 
 RF-001: O site deve permitir ao usuário cadastrar uma conta.
@@ -20,7 +19,7 @@ Artefatos da funcionalidade
 
 Responsável: Tamires
 
-![User Flow](pagloginusuario/imguserflow.jpeg)
+![User Flow](imguserflow/pagloginusuario.jpeg)
 
 Requisitos atendidos:
 
