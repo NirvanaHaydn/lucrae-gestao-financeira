@@ -1,9 +1,8 @@
 **Tela de cadastro:**
 
-Responsável: Tamires
 
-![User Flow](pagcadastrousuario/imguserflow.jpeg)
 
+![User Flow](imguserflow/pagcadastrousuario.jpeg)
 Requisitos atendidos:
 
 RF-001: O site deve permitir ao usuário cadastrar uma conta.
@@ -16,11 +15,10 @@ Artefatos da funcionalidade
 
 ●dashboard.css
 
-**Tela de acesso:**git commit -m "Programaçao de funcionalidades"
+**Tela de acesso:**
 
-Responsável: Tamires
 
-![User Flow](pagloginusuario/imguserflow.jpeg)
+![User Flow](imguserflow/pagloginusuario.jpeg)
 
 Requisitos atendidos:
 
@@ -35,31 +33,19 @@ Artefatos da funcionalidade
 ●dashboard.css
 
 
+**Tela Usuario Logado:**
 
-#### Requisito atendido
+![User Flow](imguserflow/capusoteste.JPG)
 
-[RF-X: adicione a descrição do requisito atendido]
+RF-003: O usuário deve poder classificar as entradas e saídas financeiras em categorias.
 
+Artefatos da funcionalidade
 
-#### Artefatos da funcionalidade
+●dashboard.html
 
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
+●global.css
 
-
-#### Estrutura de Dados
-
-[Caso exista estrutura de dados, adicione aqui]
-
-
-#### Instruções de acesso
-
-[Adicione as orientações de acesso à funcionalidade]
-
-
-#### Responsável
-
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
-
+●dashboard.css
 
 
 
