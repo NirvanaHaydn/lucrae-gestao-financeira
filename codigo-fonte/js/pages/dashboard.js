@@ -1,58 +1,28 @@
 loadMockUser();
 
-const user =
-    JSON.parse(localStorage.getItem("user"));
+const user = JSON.parse(localStorage.getItem("user"));
 
 document.getElementById("welcome-user").innerText =
     `Olá, ${user.name}!`;
 
-const incomes = [
+// ✅ AGORA VEM DO LOCALSTORAGE (dados reais do usuário)
+const incomes = JSON.parse(localStorage.getItem("incomes")) || [];
+const expenses = JSON.parse(localStorage.getItem("expenses")) || [];
 
-    {
-        nome: "Salário",
-        valor: 4000
-    },
+// 💰 soma receitas
+const totalIncome = incomes.reduce((total, item) => {
+    return total + Number(item.valor || 0);
+}, 0);
 
-    {
-        nome: "Freelance",
-        valor: 850
-    }
+// 💸 soma despesas
+const totalExpense = expenses.reduce((total, item) => {
+    return total + Number(item.valor || 0);
+}, 0);
 
-];
+// 📊 saldo
+const balance = totalIncome - totalExpense;
 
-
-const expenses = [
-
-    {
-        nome: "Aluguel",
-        valor: 1200
-    },
-
-    {
-        nome: "Mercado",
-        valor: 600
-    }
-
-];
-const totalIncome =
-    incomes.reduce((total, item) => {
-
-        return total + item.valor;
-
-    }, 0);
-
-
-const totalExpense =
-    expenses.reduce((total, item) => {
-
-        return total + item.valor;
-
-    }, 0);
-
-
-const balance =
-    totalIncome - totalExpense;
-
+// 📌 render na tela
 document.getElementById("total-income").innerText =
     `R$ ${totalIncome}`;
 
@@ -62,8 +32,8 @@ document.getElementById("total-expense").innerText =
 document.getElementById("balance").innerText =
     `R$ ${balance}`;
 
-const ctx =
-    document.getElementById('myChart');
+// 📈 gráfico
+const ctx = document.getElementById('myChart');
 
 new Chart(ctx, {
 
@@ -71,22 +41,13 @@ new Chart(ctx, {
 
     data: {
 
-        labels: [
-            'Receitas',
-            'Despesas'
-        ],
+        labels: ['Receitas', 'Despesas'],
 
         datasets: [{
 
-            data: [
-                totalIncome,
-                totalExpense
-            ],
+            data: [totalIncome, totalExpense],
 
-            backgroundColor: [
-                '#58A92E',
-                '#b85c5c'
-            ],
+            backgroundColor: ['#58A92E', '#b85c5c'],
 
             borderWidth: 0
 
@@ -110,10 +71,8 @@ new Chart(ctx, {
                     color: '#092c1f',
 
                     font: {
-
                         family: 'Junge',
                         size: 16
-
                     }
 
                 }
