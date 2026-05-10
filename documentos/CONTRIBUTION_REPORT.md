@@ -1,6 +1,6 @@
 # 📊 Relatório de Contribuições do Projeto
 
-**Última atualização:** 10/05/2026 15:57
+**Última atualização:** 10/05/2026 17:52
 
 ---
 
@@ -12,23 +12,23 @@
 | João Pedro Almeida Moreira |         6 |        24 |        18 |          2 |              5 |               1 |
 | João Vitor                 |        13 |       162 |        53 |          5 |             11 |               2 |
 | Juli                       |         1 |        58 |         9 |          3 |              0 |               0 |
-| Nirvana Oliveira           |         6 |       681 |        31 |         13 |              1 |               0 |
+| Nirvana Oliveira           |         8 |       747 |        94 |         15 |              1 |               0 |
 | Tamires Lima               |        21 |       318 |       121 |         29 |             21 |               3 |
-| github-actions[bot]        |        38 |       265 |       203 |          3 |             38 |               1 |
+| github-actions[bot]        |        39 |       269 |       207 |          3 |             39 |               1 |
 | github-classroom[bot]      |         1 |       774 |         0 |         19 |              1 |               3 |
 
 
 ## 📅 Contribuições Semanais (Todo o Semestre)
 
-**2026-05-03**: João Almeida: 14, João Pedro Almeida Moreira: 2, João Vitor: 2, Juli: 1, Nirvana Oliveira: 6, Tamires Lima: 9, github-actions[bot]: 21
+**2026-05-03**: João Almeida: 14, João Pedro Almeida Moreira: 2, João Vitor: 2, Juli: 1, Nirvana Oliveira: 8, Tamires Lima: 9, github-actions[bot]: 22
 
 **2026-04-26**: João Vitor: 1
 
 **2026-04-19**: João Almeida: 1, github-actions[bot]: 1
 
-**2026-04-12**: João Pedro Almeida Moreira: 4, João Vitor: 1, Tamires Lima: 8, github-actions[bot]: 9
+**2026-04-12**: João Pedro Almeida Moreira: 4, João Vitor: 1, Tamires Lima: 3, github-actions[bot]: 6
 
-**2026-04-05**: João Vitor: 9, Tamires Lima: 2, github-actions[bot]: 7
+**2026-04-05**: João Vitor: 9, Tamires Lima: 7, github-actions[bot]: 10
 
 **2026-03-22**: Tamires Lima: 2
 
