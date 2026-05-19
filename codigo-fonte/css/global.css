@@ -277,3 +277,12 @@ p {
 
     border-radius: 10px;
 }
+
+.card-about {
+    border: none;
+}
+
+.social_links {
+    text-decoration: none;
+    color: #f2f2f2;
+}
