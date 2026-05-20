@@ -1,46 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Login</title>
+    <title>Página de Cadastro</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Junge&display=swap" rel="stylesheet">
-    
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/forms.css">
-    
 </head>
+
 <body>
     <div id="navbar"></div>
     <div class="container d-flex justify-content-center align-items-center vh-100">
         <div class="card shadow p-4" style="max-width: 400px; width: 100%;">
             <h2 class="text-center mb-4">Cadastro</h2>
-            <form>
+            <form id="cadastroForm">
                 <div class="mb-3">
-                    <label for="username" class="form-label">Nome Completo</label>
-                    <input type="text" class="form-control" id="username" placeholder="Informe seu nome completo" required>
+                    <label for="fullname" class="form-label">Nome Completo</label>
+                    <input type="text" class="form-control" id="fullname" placeholder="Informe seu nome completo"
+                        required>
                 </div>
                 <div class="mb-3">
                     <label for="username" class="form-label">Nome de Usuário</label>
-                    <input type="text" class="form-control" id="username" placeholder="Crie seu nome de usuário" required>
+                    <input type="text" class="form-control" id="username" placeholder="Crie seu nome de usuário"
+                        required>
                 </div>
                 <div class="mb-3">
                     <label for="password" class="form-label">Senha</label>
                     <input type="password" class="form-control" id="password" placeholder="Crie sua senha" required>
                 </div>
                 <div class="mb-3">
-                    <label for="password" class="form-label">Confirme a senha</label>
-                    <input type="password" class="form-control" id="password" placeholder="Confirme a senha" required>
+                    <label for="confirmPassword" class="form-label">Confirme a senha</label>
+                    <input type="password" class="form-control" id="confirmPassword" placeholder="Confirme a senha"
+                        required>
                 </div>
-                <button type="submit" class="btn btn-primary w-100">Entrar</button>
+                <button type="submit" class="btn btn-primary w-100">Cadastrar</button>
             </form>
             <div class="text-center mt-3">
-                <a href="login.html">Já possuí conta?</a>
+                <a href="login.html">Já possui conta?</a>
             </div>
         </div>
     </div>
@@ -48,5 +47,36 @@
     <div id="footer"></div>
     <script src="js/components/navbar.js"></script>
     <script src="js/components/footer.js"></script>
+
+    <script>
+        document.getElementById("cadastroForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            const nomeCompleto = document.getElementById("fullname").value;
+            const username = document.getElementById("username").value;
+            const senha = document.getElementById("password").value;
+            const confirmSenha = document.getElementById("confirmPassword").value;
+
+            if (senha !== confirmSenha) {
+                alert("As senhas não coincidem!");
+                return;
+            }
+
+            const usuarios = JSON.parse(localStorage.getItem("usuarios")) || [];
+
+            if (usuarios.some(u => u.username === username)) {
+                alert("Nome de usuário já existe!");
+                return;
+            }
+
+            const novoUsuario = { nomeCompleto, username, senha };
+            usuarios.push(novoUsuario);
+            localStorage.setItem("usuarios", JSON.stringify(usuarios));
+
+            alert("Usuário cadastrado com sucesso!");
+            document.getElementById("cadastroForm").reset();
+        });
+    </script>
 </body>
+
 </html>
