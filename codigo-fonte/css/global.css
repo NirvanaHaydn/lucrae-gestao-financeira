@@ -175,7 +175,7 @@ p {
 .custom-dashboard-btn {
     background-color: #ffffff;
     color: #198754;
-    border: 5px double #198754;
+    border: 2px solid #198754;
 
     font-family: 'Junge', serif;
     font-size: 1.2rem;

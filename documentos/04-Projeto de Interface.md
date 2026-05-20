@@ -4,7 +4,7 @@ O fluxograma da abaixo ilustra o percurso de interação do usuário pelas difer
 
 ## User Flow
 
-![User Flow](imguserflow/userflow.jpeg)
+![User Flow](imguserflow/UserFlow.png)
 
     Figura 1 - Tela Fluxo de telas do usuário 
 
