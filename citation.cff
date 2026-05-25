@@ -1,29 +1,32 @@
 message: Please cite this software using these metadata.
-title:
+title: Lucraê
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
+  - family-names: Cerqueira Crisóstomo
+    given-names: Ana Júlia
+  - family-names: Andrade dos Santos
+    given-names: Carolina
+  - family-names: Almeida Moreira
+    given-names: João Pedro 
+  - family-names: Soares Martins
+    given-names: João Vitor
+  - family-names: de Oliveira Barros
+    given-names: Nirvana
+  - family-names: de Lima Leite
+    given-names: Tamires 
   - name-suffix: Professor
     affiliation: PUC Minas
     family-names: 
     given-names: 
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: de Paiva Carvalho
+    given-names: Joyce Christina
 keywords:
-  - 
-  - 
+  - Controle de gastos
+  - Gestão financeira
+  - Organização de finanças pessoais
+  - Financas 
+
 repository-code: 
 version: 1.0.0
 date-released: 2023-10-31
