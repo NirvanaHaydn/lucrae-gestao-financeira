@@ -1,11 +1,5 @@
 html,
 body {
-    height: 100%;
-    margin: 0;
-}
-
-
-body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -15,11 +9,15 @@ body {
     color: #ffffff;
 }
 
-
 main {
     flex: 1;
 }
 
+#container{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+}
 
 .navbar-custom {
     background-color: #f2f2f2;
