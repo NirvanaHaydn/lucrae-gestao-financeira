@@ -1,11 +1,5 @@
 html,
 body {
-    height: 100%;
-    margin: 0;
-}
-
-
-body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -15,11 +9,15 @@ body {
     color: #ffffff;
 }
 
-
 main {
     flex: 1;
 }
 
+#container{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+}
 
 .navbar-custom {
     background-color: #f2f2f2;
@@ -280,9 +278,28 @@ p {
 
 .card-about {
     border: none;
+    transition: all 0.3s ease;  
+}
+
+.card-about:hover{
+    transform: scale(1.03);
 }
 
 .social_links {
     text-decoration: none;
     color: #f2f2f2;
+}
+
+.social_links:hover{
+    text-decoration: none;
+}
+
+.imgSocial {
+    font-size: 25px;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.imgSocial:hover {
+    transform: scale(1.3);
 }
