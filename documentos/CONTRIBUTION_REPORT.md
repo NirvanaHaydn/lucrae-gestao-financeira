@@ -1,6 +1,6 @@
 # 📊 Relatório de Contribuições do Projeto
 
-**Última atualização:** 27/05/2026 00:26
+**Última atualização:** 27/05/2026 00:40
 
 ---
 
@@ -8,19 +8,19 @@
 
 | Aluno                      |   Commits |   Linhas+ |   Linhas- |   Arquivos |   Docs Commits |   Docs Arquivos |
 |----------------------------|-----------|-----------|-----------|------------|----------------|-----------------|
-| João Almeida               |        16 |      1849 |       495 |         41 |              2 |               0 |
+| João Almeida               |        18 |      1854 |       502 |         41 |              2 |               0 |
 | João Pedro Almeida Moreira |         8 |        26 |        20 |          4 |              7 |               2 |
-| João Vitor                 |        17 |       296 |        88 |         13 |             11 |               2 |
+| João Vitor                 |        18 |       297 |        89 |         13 |             11 |               2 |
 | Juli                       |         1 |        58 |         9 |          3 |              0 |               0 |
 | Nirvana Oliveira           |         8 |       747 |        94 |         15 |              1 |               0 |
 | Tamires Lima               |        26 |       405 |       156 |         30 |             21 |               3 |
-| github-actions[bot]        |        47 |       330 |       268 |          3 |             47 |               1 |
+| github-actions[bot]        |        49 |       346 |       282 |          3 |             49 |               1 |
 | github-classroom[bot]      |         1 |       774 |         0 |         19 |              1 |               3 |
 
 
 ## 📅 Contribuições Semanais (Todo o Semestre)
 
-**2026-05-20**: João Almeida: 1, João Vitor: 2, Tamires Lima: 5, github-actions[bot]: 4
+**2026-05-20**: João Almeida: 3, João Vitor: 3, Tamires Lima: 5, github-actions[bot]: 6
 
 **2026-05-13**: João Vitor: 2, github-actions[bot]: 1
 
