@@ -46,13 +46,11 @@
 
             const username = document.getElementById("username").value;
             const senha = document.getElementById("password").value;
-            const usuarios = JSON.parse(localStorage.getItem("usuarios")) || [];
+
+            const usuarios = JSON.parse(localStorage.getItem("user")) || [];
             const usuario = usuarios.find(u => u.username === username && u.senha === senha);
             if (usuario) {
                 alert("Bem-vindo!");
-
-                localStorage.setItem("usuarioLogado", JSON.stringify(usuario));
-
                 window.location.href = "about.html";
             } else {
                 alert("Usuário ou senha incorretos.");

@@ -62,7 +62,7 @@
                 return;
             }
 
-            const usuarios = JSON.parse(localStorage.getItem("usuarios")) || [];
+            const usuarios = JSON.parse(localStorage.getItem("user")) || [];
 
             if (usuarios.some(u => u.username === username)) {
                 alert("Nome de usuário já existe!");
@@ -71,7 +71,7 @@
 
             const novoUsuario = { nomeCompleto, username, senha };
             usuarios.push(novoUsuario);
-            localStorage.setItem("usuarios", JSON.stringify(usuarios));
+            localStorage.setItem("user", JSON.stringify(usuarios));
 
             alert("Usuário cadastrado com sucesso!");
             document.getElementById("cadastroForm").reset();

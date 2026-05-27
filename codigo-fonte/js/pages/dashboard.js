@@ -3,7 +3,7 @@ loadMockUser();
 const user = JSON.parse(localStorage.getItem("user"));
 
 document.getElementById("welcome-user").innerText =
-    `Olá, ${user.name}!`;
+    `Olá, ${user.nomeCompleto}!`;
 
 // ✅ AGORA VEM DO LOCALSTORAGE (dados reais do usuário)
 const incomes = JSON.parse(localStorage.getItem("incomes")) || [];
