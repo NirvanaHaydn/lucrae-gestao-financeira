@@ -34,6 +34,50 @@ main {
     font-size: 1.5rem;
 }
 
+.navbar-toggler {
+    border: 1px solid #198754;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    filter: invert(34%) sepia(98%) saturate(370%) hue-rotate(100deg);
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 991px) {
+
+    .navbar-nav {
+        margin-top: 15px;
+        width: 100%;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap; /* quebra linha se faltar espaço */
+    }
+
+    .nav-link {
+        width: 25%;
+        margin: 0 auto;
+    }
+
+    .nav-link button {
+        width: auto;
+        padding: 8px 16px;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .logo {
+        height: 55px;
+    }
+}
 
 .logo,
 .title-logo {
