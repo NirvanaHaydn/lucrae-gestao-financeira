@@ -1,78 +1,150 @@
-loadMockUser();
+// =======================
+// USUÁRIO LOGADO
+// =======================
 
-const user = JSON.parse(localStorage.getItem("user"));
+const user = JSON.parse(
+    localStorage.getItem("loggedUser")
+);
+
+// verifica login
+if (!user) {
+
+    alert("Você precisa estar logado!");
+
+    window.location.href = "login.html";
+
+}
+
+
+// =======================
+// BOAS-VINDAS
+// =======================
 
 document.getElementById("welcome-user").innerText =
     `Olá, ${user.nomeCompleto}!`;
 
-// ✅ AGORA VEM DO LOCALSTORAGE (dados reais do usuário)
-const incomes = JSON.parse(localStorage.getItem("incomes")) || [];
-const expenses = JSON.parse(localStorage.getItem("expenses")) || [];
 
-// 💰 soma receitas
+// =======================
+// RECEITAS E DESPESAS
+// FILTRADAS POR USUÁRIO
+// =======================
+
+// pega TODAS as receitas
+const allIncomes = JSON.parse(
+    localStorage.getItem("incomes")
+) || [];
+
+
+// pega TODAS as despesas
+const allExpenses = JSON.parse(
+    localStorage.getItem("expenses")
+) || [];
+
+
+// filtra receitas do usuário logado
+const incomes = allIncomes.filter(item =>
+    item.userId === user.id
+);
+
+
+// filtra despesas do usuário logado
+const expenses = allExpenses.filter(item =>
+    item.userId === user.id
+);
+
+
+// =======================
+// SOMAS
+// =======================
+
+// soma receitas
 const totalIncome = incomes.reduce((total, item) => {
+
     return total + Number(item.valor || 0);
+
 }, 0);
 
-// 💸 soma despesas
+
+// soma despesas
 const totalExpense = expenses.reduce((total, item) => {
+
     return total + Number(item.valor || 0);
+
 }, 0);
 
-// 📊 saldo
+
+// saldo
 const balance = totalIncome - totalExpense;
 
-// 📌 render na tela
+
+// =======================
+// RENDERIZA NA TELA
+// =======================
+
 document.getElementById("total-income").innerText =
-    `R$ ${totalIncome}`;
+    `R$ ${totalIncome.toFixed(2)}`;
 
 document.getElementById("total-expense").innerText =
-    `R$ ${totalExpense}`;
+    `R$ ${totalExpense.toFixed(2)}`;
 
 document.getElementById("balance").innerText =
-    `R$ ${balance}`;
+    `R$ ${balance.toFixed(2)}`;
 
-// 📈 gráfico
-const ctx = document.getElementById('myChart');
+
+
+// =======================
+// GRÁFICO
+// =======================
+
+const ctx = document.getElementById("myChart");
 
 new Chart(ctx, {
 
-    type: 'doughnut',
+    type: "doughnut",
 
     data: {
 
-        labels: ['Receitas', 'Despesas'],
+        labels: ["Receitas", "Despesas"],
 
         datasets: [{
 
-            data: [totalIncome, totalExpense],
+            data: [
+                totalIncome,
+                totalExpense
+            ],
 
-            backgroundColor: ['#58A92E', '#b85c5c'],
+            backgroundColor: [
+                "#58A92E",
+                "#b85c5c"
+            ],
 
             borderWidth: 0
 
         }]
+
     },
 
     options: {
 
         responsive: true,
 
-        cutout: '70%',
+        cutout: "70%",
 
         plugins: {
 
             legend: {
 
-                position: 'bottom',
+                position: "bottom",
 
                 labels: {
 
-                    color: '#092c1f',
+                    color: "#092c1f",
 
                     font: {
-                        family: 'Junge',
+
+                        family: "Junge",
                         size: 16
+
                     }
 
                 }
