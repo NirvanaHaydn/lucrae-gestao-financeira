@@ -39,7 +39,7 @@ Joyce Christina de Paiva Carvalho
 
 # Hospedagem
 
-* I[Projeto Gestão Financeira 2026 ADS](https://icei-puc-minas-pmv-ads.github.io/proj-gestao-financeira-2026-ads/codigo-fonte/)
+* [Projeto Gestão Financeira 2026 ADS](https://icei-puc-minas-pmv-ads.github.io/proj-gestao-financeira-2026-ads/codigo-fonte/)
 
 
 # Código-Fonte
