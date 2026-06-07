@@ -1,6 +1,6 @@
 # 📊 Relatório de Contribuições do Projeto
 
-**Última atualização:** 07/06/2026 22:49
+**Última atualização:** 07/06/2026 22:51
 
 ---
 
@@ -9,19 +9,19 @@
 | Aluno                             |   Commits |   Linhas+ |   Linhas- |   Arquivos |   Docs Commits |   Docs Arquivos |
 |-----------------------------------|-----------|-----------|-----------|------------|----------------|-----------------|
 | Joyce Christina de Paiva Carvalho |         1 |         1 |         5 |          1 |              0 |               0 |
-| João Almeida                      |        32 |      2694 |       909 |         60 |              4 |               0 |
+| João Almeida                      |        34 |      2698 |       913 |         60 |              4 |               0 |
 | João Pedro Almeida Moreira        |         8 |        26 |        20 |          4 |              7 |               2 |
 | João Vitor                        |        22 |       453 |       213 |         18 |             12 |               3 |
 | Juli                              |         3 |       417 |        63 |          5 |              0 |               0 |
 | Nirvana Oliveira                  |        18 |      2064 |       158 |         22 |              1 |               0 |
 | Tamires Lima                      |        30 |       566 |       274 |         34 |             25 |               3 |
-| github-actions[bot]               |        68 |       474 |       405 |          3 |             67 |               1 |
+| github-actions[bot]               |        69 |       478 |       409 |          3 |             68 |               1 |
 | github-classroom[bot]             |         1 |       774 |         0 |         19 |              1 |               3 |
 
 
 ## 📅 Contribuições Semanais (Todo o Semestre)
 
-**2026-05-31**: Joyce Christina de Paiva Carvalho: 1, João Almeida: 10, João Vitor: 4, Juli: 2, Nirvana Oliveira: 10, Tamires Lima: 4, github-actions[bot]: 16
+**2026-05-31**: Joyce Christina de Paiva Carvalho: 1, João Almeida: 10, João Vitor: 4, Juli: 2, Nirvana Oliveira: 10, Tamires Lima: 4, github-actions[bot]: 17
 
 **2026-05-24**: João Almeida: 7, João Vitor: 3, Tamires Lima: 1, github-actions[bot]: 7
 
