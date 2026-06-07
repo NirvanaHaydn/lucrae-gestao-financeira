@@ -12,8 +12,6 @@ O objetivo geral deste projeto é criar uma solução digital para organizar e p
 
 •	Ana Júlia Cerqueira Crisóstomo
 
-•	Carolina Andrade dos Santos 
-
 •	João Pedro Almeida Moreira 
 
 •	João Vitor Soares Martins
@@ -41,7 +39,8 @@ Joyce Christina de Paiva Carvalho
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* [Projeto Gestão Financeira 2026 ADS](https://icei-puc-minas-pmv-ads.github.io/proj-gestao-financeira-2026-ads/codigo-fonte/)
+
 
 # Código-Fonte
 

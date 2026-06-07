@@ -1,42 +1,47 @@
 # 📊 Relatório de Contribuições do Projeto
 
-**Última atualização:** 27/05/2026 22:06
+**Última atualização:** 07/06/2026 19:27
 
 ---
 
 ## 📈 Resumo Geral de Contribuições
 
-| Aluno                      |   Commits |   Linhas+ |   Linhas- |   Arquivos |   Docs Commits |   Docs Arquivos |
-|----------------------------|-----------|-----------|-----------|------------|----------------|-----------------|
-| João Almeida               |        22 |      2420 |       660 |         44 |              2 |               0 |
-| João Pedro Almeida Moreira |         8 |        26 |        20 |          4 |              7 |               2 |
-| João Vitor                 |        18 |       297 |        89 |         13 |             11 |               2 |
-| Juli                       |         1 |        58 |         9 |          3 |              0 |               0 |
-| Nirvana Oliveira           |         8 |       747 |        94 |         15 |              1 |               0 |
-| Tamires Lima               |        26 |       405 |       156 |         30 |             21 |               3 |
-| github-actions[bot]        |        51 |       360 |       294 |          3 |             51 |               1 |
-| github-classroom[bot]      |         1 |       774 |         0 |         19 |              1 |               3 |
+| Aluno                             |   Commits |   Linhas+ |   Linhas- |   Arquivos |   Docs Commits |   Docs Arquivos |
+|-----------------------------------|-----------|-----------|-----------|------------|----------------|-----------------|
+| Joyce Christina de Paiva Carvalho |         1 |         1 |         5 |          1 |              0 |               0 |
+| João Almeida                      |        30 |      2690 |       905 |         60 |              4 |               0 |
+| João Pedro Almeida Moreira        |         8 |        26 |        20 |          4 |              7 |               2 |
+| João Vitor                        |        22 |       453 |       213 |         18 |             12 |               3 |
+| Juli                              |         3 |       417 |        63 |          5 |              0 |               0 |
+| Nirvana Oliveira                  |         8 |       747 |        94 |         15 |              1 |               0 |
+| Tamires Lima                      |        30 |       566 |       274 |         34 |             25 |               3 |
+| github-actions[bot]               |        62 |       449 |       378 |          3 |             61 |               1 |
+| github-classroom[bot]             |         1 |       774 |         0 |         19 |              1 |               3 |
 
 
 ## 📅 Contribuições Semanais (Todo o Semestre)
 
-**2026-05-20**: João Almeida: 6, João Vitor: 3, Tamires Lima: 1, github-actions[bot]: 6
+**2026-05-31**: Joyce Christina de Paiva Carvalho: 1, João Almeida: 7, João Vitor: 4, Juli: 2, Tamires Lima: 4, github-actions[bot]: 10
 
-**2026-05-13**: João Vitor: 2, Tamires Lima: 4, github-actions[bot]: 3
+**2026-05-24**: João Almeida: 7, João Vitor: 3, Tamires Lima: 1, github-actions[bot]: 7
 
-**2026-05-06**: João Almeida: 8, João Pedro Almeida Moreira: 3, João Vitor: 2, Juli: 1, Nirvana Oliveira: 5, Tamires Lima: 7, github-actions[bot]: 16
+**2026-05-17**: João Vitor: 2, Tamires Lima: 4, github-actions[bot]: 3
 
-**2026-04-29**: João Almeida: 6, João Pedro Almeida Moreira: 1, Nirvana Oliveira: 3, Tamires Lima: 2, github-actions[bot]: 9
+**2026-05-10**: João Pedro Almeida Moreira: 2, github-actions[bot]: 2
 
-**2026-04-22**: João Almeida: 1, João Vitor: 1, github-actions[bot]: 1
+**2026-05-03**: João Almeida: 14, João Pedro Almeida Moreira: 2, João Vitor: 2, Juli: 1, Nirvana Oliveira: 8, Tamires Lima: 9, github-actions[bot]: 23
 
-**2026-04-08**: João Pedro Almeida Moreira: 4, João Vitor: 10, Tamires Lima: 9, github-actions[bot]: 15
+**2026-04-26**: João Vitor: 1
 
-**2026-04-01**: Tamires Lima: 1, github-actions[bot]: 1
+**2026-04-19**: João Almeida: 1, github-actions[bot]: 1
 
-**2026-03-25**: Tamires Lima: 2
+**2026-04-12**: João Vitor: 1, github-actions[bot]: 1
 
-**2026-03-18**: github-classroom[bot]: 1
+**2026-04-05**: João Pedro Almeida Moreira: 4, João Vitor: 9, Tamires Lima: 10, github-actions[bot]: 15
+
+**2026-03-22**: Tamires Lima: 2
+
+**2026-03-15**: github-classroom[bot]: 1
 
 
 
