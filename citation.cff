@@ -4,8 +4,6 @@ authors:
   - family-names: Cerqueira Crisóstomo
     given-names: Ana Júlia
   - family-names: Andrade dos Santos
-    given-names: Carolina
-  - family-names: Almeida Moreira
     given-names: João Pedro 
   - family-names: Soares Martins
     given-names: João Vitor
@@ -25,4 +23,4 @@ keywords:
 
 repository-code: 
 version: 1.0.0
-date-released: 2023-10-31
+date-released: 2026-06-21.
