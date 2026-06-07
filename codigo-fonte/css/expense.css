@@ -46,3 +46,26 @@
     min-height: 24px;
     font-family: "Junge", serif;
 }
+.modal-content{
+    background-color:#f4f1ee;
+    border:none;
+    border-radius:15px;
+}
+
+.modal-header{
+    border-bottom:1px solid #d8d8d8;
+}
+
+.modal-footer{
+    border-top:1px solid #d8d8d8;
+}
+
+.modal-title{
+    color:#092c1f !important;
+    font-family:"Junge", serif;
+}
+
+.modal-body{
+    color:#333 !important;
+    font-family:"Junge", serif;
+}

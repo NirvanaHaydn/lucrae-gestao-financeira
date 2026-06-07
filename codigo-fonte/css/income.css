@@ -57,3 +57,26 @@
     z-index: 9999;
 
 }
+.modal-content {
+    background-color: #f4f1ee !important;
+}
+
+.modal-title {
+    color: #092c1f !important;
+}
+
+.modal-body {
+    color: #092c1f !important;
+}
+
+.modal-body label {
+    color: #092c1f !important;
+}
+
+.modal-header {
+    border-bottom: 1px solid #ddd;
+}
+
+.modal-footer {
+    border-top: 1px solid #ddd;
+}

@@ -205,32 +205,38 @@
 
 </main>
 
-<!-- Modal Limite -->
+<!-- Modal Definir Limite -->
 <div
     class="modal fade"
     id="limiteModal"
     tabindex="-1"
+    aria-labelledby="limiteModalLabel"
     aria-hidden="true">
 
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-dialog-centered">
 
         <div class="modal-content">
 
             <div class="modal-header">
 
-                <h5 class="modal-title">
+                <h5
+                    class="modal-title text-dark"
+                    id="limiteModalLabel">
+
                     Definir Limite de Gastos
+
                 </h5>
 
                 <button
                     type="button"
                     class="btn-close"
-                    data-bs-dismiss="modal">
+                    data-bs-dismiss="modal"
+                    aria-label="Fechar">
                 </button>
 
             </div>
 
-            <div class="modal-body">
+            <div class="modal-body text-dark">
 
                 <label
                     for="valorLimite"
@@ -282,27 +288,33 @@
     class="modal fade"
     id="limparLimiteModal"
     tabindex="-1"
+    aria-labelledby="limparLimiteModalLabel"
     aria-hidden="true">
 
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-dialog-centered">
 
         <div class="modal-content">
 
             <div class="modal-header">
 
-                <h5 class="modal-title">
+                <h5
+                    class="modal-title text-dark"
+                    id="limparLimiteModalLabel">
+
                     Remover Limite
+
                 </h5>
 
                 <button
                     type="button"
                     class="btn-close"
-                    data-bs-dismiss="modal">
+                    data-bs-dismiss="modal"
+                    aria-label="Fechar">
                 </button>
 
             </div>
 
-            <div class="modal-body">
+            <div class="modal-body text-dark">
 
                 Tem certeza que deseja remover o limite de gastos?
 
