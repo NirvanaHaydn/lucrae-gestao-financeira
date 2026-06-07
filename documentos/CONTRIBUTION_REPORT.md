@@ -1,6 +1,6 @@
 # 📊 Relatório de Contribuições do Projeto
 
-**Última atualização:** 07/06/2026 20:18
+**Última atualização:** 07/06/2026 20:53
 
 ---
 
@@ -13,15 +13,15 @@
 | João Pedro Almeida Moreira        |         8 |        26 |        20 |          4 |              7 |               2 |
 | João Vitor                        |        22 |       453 |       213 |         18 |             12 |               3 |
 | Juli                              |         3 |       417 |        63 |          5 |              0 |               0 |
-| Nirvana Oliveira                  |        10 |      1989 |       139 |         21 |              1 |               0 |
+| Nirvana Oliveira                  |        12 |      2056 |       148 |         21 |              1 |               0 |
 | Tamires Lima                      |        30 |       566 |       274 |         34 |             25 |               3 |
-| github-actions[bot]               |        63 |       453 |       382 |          3 |             62 |               1 |
+| github-actions[bot]               |        64 |       457 |       386 |          3 |             63 |               1 |
 | github-classroom[bot]             |         1 |       774 |         0 |         19 |              1 |               3 |
 
 
 ## 📅 Contribuições Semanais (Todo o Semestre)
 
-**2026-05-31**: Joyce Christina de Paiva Carvalho: 1, João Almeida: 8, João Vitor: 4, Juli: 2, Nirvana Oliveira: 2, Tamires Lima: 4, github-actions[bot]: 11
+**2026-05-31**: Joyce Christina de Paiva Carvalho: 1, João Almeida: 8, João Vitor: 4, Juli: 2, Nirvana Oliveira: 4, Tamires Lima: 4, github-actions[bot]: 12
 
 **2026-05-24**: João Almeida: 7, João Vitor: 3, Tamires Lima: 1, github-actions[bot]: 7
 
