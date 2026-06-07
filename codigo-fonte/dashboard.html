@@ -25,7 +25,7 @@
             <h1 class="display-4 fw-bold mb-5"
                 id="welcome-user"></h1>
             <div class="row dashboard-layout g-4">
-                <!--BOTÕES -->
+               
                 <div class="col-md-3">
                     <div class="btn-group-vertical dashboard-buttons">
                         <a href="income.html"
@@ -42,15 +42,15 @@
                         </a>
                     </div>
                 </div>
-                <!--DASHBOARD -->
+            
                 <div class="col-md-5">
                     <div class="dashboard-chart-card">
                         <h1 class="text-dark mb-4">
                             Resumo Financeiro
                         </h1>
-                        <!-- GRÁFICO -->
+                        
                         <canvas id="myChart"></canvas>
-                        <!-- DADOS -->
+                        
                         <div class="mt-4 text-dark">
                             <h5>
                                 Receitas:
@@ -65,7 +65,13 @@
                                 </span>
                             </h5>
                             <h5>
-                                Saldo:
+                                Reserva:
+                                <span id="reserve">
+                                    R$ 0
+                                </span>
+                            </h5>
+                            <h5>
+                                Saldo Disponível:
                                 <span id="balance">
                                     R$ 0
                                 </span>
@@ -73,7 +79,7 @@
                         </div>
                     </div>
                 </div>
-                <!--INFORMATIVO -->
+             
                 <div class="col-md-4">
                     <div class="card news-card">
                         <img src="assets/img/photos/acompanhe_seu_dinheiro.png"

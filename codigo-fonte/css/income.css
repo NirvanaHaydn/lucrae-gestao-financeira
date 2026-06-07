@@ -1,0 +1,59 @@
+.income-card{
+    border:none;
+    border-radius:20px;
+    min-height:200px;
+}
+
+.income-card h3,
+.income-card h4{
+    color:#1f1f1f;
+}
+
+.income-card p{
+    color:#333;
+}
+
+#total-income{
+    font-size:2rem;
+    font-weight:bold;
+}
+
+.action-buttons{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+.action-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.income-card {
+    border-radius: 15px;
+}
+.mensagem-reserva {
+
+    position: fixed;
+
+    top: 100px;
+
+    right: 30px;
+
+    padding: 15px 25px;
+
+    background: #f4f1ee;
+
+    color: #003b2f;
+
+    border: 2px solid #1f8f4d;
+
+    border-radius: 12px;
+
+    font-family: "Junge", serif;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+    z-index: 9999;
+
+}

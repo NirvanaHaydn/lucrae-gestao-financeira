@@ -9,7 +9,7 @@ form.addEventListener("submit", (e) => {
         localStorage.getItem("loggedUser")
     );
 
-    // segurança
+    
     if (!loggedUser) {
 
         alert("Usuário não autenticado!");
@@ -17,12 +17,12 @@ form.addEventListener("submit", (e) => {
 
     }
 
-    // cria despesa
+    
     const expense = {
 
         id: Date.now(),
 
-        // relação com usuário
+        
         userId: loggedUser.id,
 
         username: loggedUser.username,
@@ -45,15 +45,15 @@ form.addEventListener("submit", (e) => {
 
     };
 
-    // pega despesas
+    
     const expenses = JSON.parse(
         localStorage.getItem("expenses")
     ) || [];
 
-    // adiciona
+    
     expenses.push(expense);
 
-    // salva
+    
     localStorage.setItem(
         "expenses",
         JSON.stringify(expenses)
@@ -63,4 +63,4 @@ form.addEventListener("submit", (e) => {
 
     form.reset();
 
-});e
+});

@@ -1,12 +1,8 @@
-// =======================
-// USUÁRIO LOGADO
-// =======================
 
 const user = JSON.parse(
     localStorage.getItem("loggedUser")
 );
 
-// verifica login
 if (!user) {
 
     alert("Você precisa estar logado!");
@@ -16,76 +12,70 @@ if (!user) {
 }
 
 
-// =======================
-// BOAS-VINDAS
-// =======================
 
 document.getElementById("welcome-user").innerText =
     `Olá, ${user.nomeCompleto}!`;
 
 
-// =======================
-// RECEITAS E DESPESAS
-// FILTRADAS POR USUÁRIO
-// =======================
-
-// pega TODAS as receitas
 const allIncomes = JSON.parse(
     localStorage.getItem("incomes")
 ) || [];
 
-
-// pega TODAS as despesas
 const allExpenses = JSON.parse(
     localStorage.getItem("expenses")
 ) || [];
 
+const allReservas = JSON.parse(
+    localStorage.getItem("reservas")
+) || [];
 
-// filtra receitas do usuário logado
+
+
 const incomes = allIncomes.filter(item =>
     item.userId === user.id
 );
 
-
-// filtra despesas do usuário logado
 const expenses = allExpenses.filter(item =>
     item.userId === user.id
 );
 
+const reservaUsuario = allReservas.find(
+    item => item.userId === user.id
+);
 
-// =======================
-// SOMAS
-// =======================
 
-// soma receitas
 const totalIncome = incomes.reduce((total, item) => {
 
     return total + Number(item.valor || 0);
 
 }, 0);
 
-
-// soma despesas
 const totalExpense = expenses.reduce((total, item) => {
 
     return total + Number(item.valor || 0);
 
 }, 0);
 
+const valorReserva =
+    reservaUsuario?.valor || 0;
 
-// saldo
-const balance = totalIncome - totalExpense;
 
 
-// =======================
-// RENDERIZA NA TELA
-// =======================
+const balance =
+    totalIncome -
+    totalExpense -
+    valorReserva;
+
+
 
 document.getElementById("total-income").innerText =
     `R$ ${totalIncome.toFixed(2)}`;
 
 document.getElementById("total-expense").innerText =
     `R$ ${totalExpense.toFixed(2)}`;
+
+document.getElementById("reserve").innerText =
+    `R$ ${valorReserva.toFixed(2)}`;
 
 document.getElementById("balance").innerText =
     `R$ ${balance.toFixed(2)}`;
@@ -104,18 +94,24 @@ new Chart(ctx, {
 
     data: {
 
-        labels: ["Receitas", "Despesas"],
+        labels: [
+            "Receitas",
+            "Despesas",
+            "Reserva"
+        ],
 
         datasets: [{
 
             data: [
                 totalIncome,
-                totalExpense
+                totalExpense,
+                valorReserva
             ],
 
             backgroundColor: [
                 "#58A92E",
-                "#b85c5c"
+                "#b85c5c",
+                "#e0b84f"
             ],
 
             borderWidth: 0
