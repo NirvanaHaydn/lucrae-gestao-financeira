@@ -347,3 +347,7 @@ p {
 .imgSocial:hover {
     transform: scale(1.3);
 }
+
+.fotoPerfil {
+    width: 250px
+}

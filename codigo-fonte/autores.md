@@ -51,6 +51,7 @@ Tamires de Lima Leite
 Responsável por:
 
 Desenvolveu news.hmtl
-Desenvolveu education.hmtl
+Desenvolveu register.hmtl
+
 
 =======================================================================================================================

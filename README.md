@@ -12,8 +12,6 @@ O objetivo geral deste projeto é criar uma solução digital para organizar e p
 
 •	Ana Júlia Cerqueira Crisóstomo
 
-•	Carolina Andrade dos Santos 
-
 •	João Pedro Almeida Moreira 
 
 •	João Vitor Soares Martins
