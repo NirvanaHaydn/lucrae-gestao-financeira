@@ -1,49 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Educação Financeira</title>
+    <title>Notícias Financeiras</title>
+
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Junge&display=swap" rel="stylesheet">
-
+    
     <link rel="stylesheet" href="css/global.css">
 
-    <style>
-    
-
-        .container-costum {
-            padding-top: 120px;
-            padding-bottom: 80px;
-        }
-
-        .card {
-            background-color: #061f15;
-            border-radius: 20px;
-            transition: 0.3s ease;
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-        }
-
-        h2, h3{
-            color: rgb(153, 153, 153);
-        }
-
-        p {
-            line-height: 1.8;
-        }
-
-        .hero {
-            margin-bottom: 50px;
-        }
-    </style>
 </head>
 
 <body>
@@ -52,163 +24,54 @@
 
         <div id="navbar"></div>
 
-        <div class="container container-costum" >
+        <main>
 
-            <div class="row justify-content-center">
+            <div class="container py-5">
 
-                <div class="col-12 text-center hero">
-                    <h1 class="display-4">Educação Financeira para Iniciantes</h1>
+                <div class="row mb-5">
 
-                    <p class="lead mt-3">
-                        Aprender a cuidar do dinheiro é mais simples do que parece.
-                        Pequenos hábitos podem trazer mais segurança, evitar dívidas
-                        e ajudar na realização de objetivos.
-                    </p>
-                </div>
+                    <div class="col-md-10 mb-3 mb-md-0">
 
-                <div class="col-md-10 mb-4">
-                    <div class="card shadow-sm border-0">
-                        <div class="card-body p-4">
+                        <input
+                            type="text"
+                            id="searchInput"
+                            class="form-control"
+                            placeholder="Pesquisar..."
+                        >
 
-                            <h2>O que é educação financeira?</h2>
-
-                            <p>
-                                Educação financeira é o conjunto de conhecimentos e hábitos
-                                que ajudam as pessoas a administrar melhor o próprio dinheiro.
-                                Ela permite entender quanto se ganha, quanto se gasta e como
-                                planejar o uso dos recursos de forma consciente.
-                            </p>
-
-                            <p>
-                                Quando uma pessoa desenvolve esses conhecimentos, ela consegue
-                                evitar dívidas desnecessárias, organizar melhor o orçamento e
-                                tomar decisões mais seguras sobre compras, economia e investimentos.
-                            </p>
-
-                        </div>
                     </div>
-                </div>
 
-                <div class="col-md-5 mb-4">
-                    <div class="card h-100 shadow-sm border-0">
-                        <div class="card-body">
+                    <div class="col-md-2">
 
-                            <h3>Anote todos os gastos</h3>
+                        <button
+                            class="btn btn-success w-100"
+                            onclick="buscarNoticias()"
+                        >
+                            Buscar
+                        </button>
 
-                            <p>
-                                O primeiro passo para melhorar a vida financeira é saber para
-                                onde o dinheiro está indo. Anotar despesas diárias ajuda a
-                                identificar gastos desnecessários e facilita o controle do orçamento.
-                            </p>
-
-                        </div>
                     </div>
+
                 </div>
 
-                <div class="col-md-5 mb-4">
-                    <div class="card h-100 shadow-sm border-0">
-                        <div class="card-body">
+                <div id="loading"></div>
 
-                            <h3>Faça um orçamento mensal</h3>
-
-                            <p>
-                                Organize seus ganhos e despesas em uma lista simples. Dessa forma,
-                                fica mais fácil visualizar sua situação financeira e encontrar
-                                maneiras de economizar.
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-5 mb-4">
-                    <div class="card h-100 shadow-sm border-0">
-                        <div class="card-body">
-
-                            <h3>Evite compras por impulso</h3>
-
-                            <p>
-                                Antes de comprar algo, reflita se aquilo é realmente necessário.
-                                Muitas compras são feitas por impulso e acabam comprometendo o
-                                orçamento sem trazer benefícios duradouros.
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-5 mb-4">
-                    <div class="card h-100 shadow-sm border-0">
-                        <div class="card-body">
-
-                            <h3>Crie uma reserva de emergência</h3>
-
-                            <p>
-                                Guardar uma pequena quantia todos os meses ajuda a enfrentar
-                                situações inesperadas, como despesas médicas ou reparos urgentes.
-                                Ter uma reserva traz mais tranquilidade e segurança.
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-10 mb-4">
-                    <div class="card shadow-sm border-0">
-                        <div class="card-body p-4">
-
-                            <h2>Por que aprender educação financeira?</h2>
-
-                            <p>
-                                A educação financeira contribui para uma vida mais organizada e
-                                equilibrada. Pessoas que controlam melhor seus recursos costumam
-                                ter menos problemas com dívidas e conseguem planejar seus objetivos
-                                com mais eficiência.
-                            </p>
-
-                            <p>
-                                Além disso, o conhecimento financeiro ajuda na construção de hábitos
-                                saudáveis, como poupar regularmente e utilizar o dinheiro de maneira
-                                consciente.
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-10">
-                    <div class="card shadow border-0">
-                        <div class="card-body p-4">
-
-                            <h2>Conclusão</h2>
-
-                            <p>
-                                Aprender educação financeira não exige conhecimentos avançados.
-                                Com organização, disciplina e pequenas mudanças de hábito,
-                                qualquer pessoa pode melhorar sua relação com o dinheiro.
-                            </p>
-
-                            <p>
-                                Anotar gastos, planejar despesas e criar uma reserva financeira
-                                são atitudes simples que podem trazer mais segurança e tranquilidade
-                                para o futuro.
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
+                <div
+                    class="row g-4"
+                    id="newsContainer"
+                ></div>
 
             </div>
 
-        </div>
+        </main>
 
         <div id="footer"></div>
 
     </div>
 
-    <script src="/js/libs.js"></script>
-    <script src="js/components/navbar.js"></script>
-    <script src="js/components/footer.js"></script>
-
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/components/navbar.js"></script>
+<script src="js/components/footer.js"></script>
+<script src="js/pages/news.js"></script>
 </html>
