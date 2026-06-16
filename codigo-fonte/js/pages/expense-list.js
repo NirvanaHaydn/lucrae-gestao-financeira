@@ -1,7 +1,3 @@
-// =======================
-// USUÁRIO LOGADO
-// =======================
-
 const user = JSON.parse(
     localStorage.getItem("loggedUser")
 );
@@ -13,7 +9,6 @@ if (!user) {
     window.location.href = "login.html";
 
 }
-
 
 const allExpenses = JSON.parse(
     localStorage.getItem("expenses")
@@ -31,13 +26,25 @@ tbody.innerHTML = "";
 
 userExpenses.forEach(expense => {
 
+    let dataFormatada = "";
+
+    if (expense.data) {
+
+        const [ano, mes, dia] =
+            expense.data.split("-");
+
+        dataFormatada =
+            `${dia}/${mes}/${ano}`;
+
+    }
+
     const row = document.createElement("tr");
 
     row.innerHTML = `
         <td>${expense.nome}</td>
         <td>${expense.categoria}</td>
-        <td>R$ ${expense.valor.toFixed(2)}</td>
-        <td>${expense.data}</td>
+        <td>R$ ${Number(expense.valor).toFixed(2)}</td>
+        <td>${dataFormatada}</td>
         <td>
             ${expense.recorrente
                 ? "Recorrente"
@@ -48,7 +55,6 @@ userExpenses.forEach(expense => {
     tbody.appendChild(row);
 
 });
-
 
 function gerarPDF() {
 
@@ -80,7 +86,6 @@ document
         "click",
         gerarPDF
     );
-
 
 document
     .getElementById("salvarLimite")
@@ -162,8 +167,6 @@ document
 
     });
 
-
-
 const limits = JSON.parse(
     localStorage.getItem(
         "expenseLimits"
@@ -181,8 +184,6 @@ const totalGasto =
         0
     );
 
-
-
 const status = document.getElementById(
     "expense-status"
 );
@@ -190,7 +191,7 @@ const status = document.getElementById(
 if (userLimit) {
 
     const valorLimite =
-        userLimit.valor;
+        Number(userLimit.valor);
 
     const restante =
         valorLimite - totalGasto;

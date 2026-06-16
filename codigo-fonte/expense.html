@@ -39,23 +39,34 @@
 
     <div class="container">
 
-        <h1 class="display-4 fw-bold mb-5"
+    <div class="d-flex align-items-center mb-5">
+
+        <a href="dashboard.html"
+           class="btn custom-dashboard-btn me-4">
+
+            ← Dashboard
+
+        </a>
+
+        <h1 class="display-4 fw-bold m-0"
             id="welcome-user">
 
             Despesas
 
         </h1>
 
-        <div class="row g-4">
+    </div>
 
-            <!-- Card lateral -->
+    <div class="row g-4">
+
+            
             <div class="col-lg-3">
 
                 <div class="card expense-card p-4">
 
-                    <h3 class="mb-3">
+                    <h1 class="mb-3">
                         Despesas
-                    </h3>
+                    </h1>
 
                     <p>
                         Cadastre e acompanhe seus gastos.
@@ -72,14 +83,14 @@
 
             </div>
 
-            <!-- Histórico -->
+            
             <div class="col-lg-6">
 
                 <div class="card expense-card p-4">
 
-                    <h3 class="mb-4">
+                    <h1 class="mb-4">
                         Histórico de Despesas
-                    </h3>
+                    </h1>
 
                     <div class="table-responsive">
 
@@ -121,14 +132,14 @@
 
             </div>
 
-            <!-- Resumo Financeiro -->
+            
             <div class="col-lg-3">
 
                 <div class="card expense-card p-4">
 
-                    <h4 class="mb-3">
-                        Resumo Financeiro
-                    </h4>
+                    <h1 class="mb-3">
+                        Limite de gastos
+                    </h1>
 
                     <p>
                         Limite:
@@ -205,7 +216,6 @@
 
 </main>
 
-<!-- Modal Definir Limite -->
 <div
     class="modal fade"
     id="limiteModal"
@@ -283,7 +293,6 @@
 
 </div>
 
-<!-- Modal Remover Limite -->
 <div
     class="modal fade"
     id="limparLimiteModal"

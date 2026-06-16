@@ -26,13 +26,25 @@ tbody.innerHTML = "";
 
 incomes.forEach(income => {
 
+    let dataFormatada = "";
+
+    if (income.data) {
+
+        const [ano, mes, dia] =
+            income.data.split("-");
+
+        dataFormatada =
+            `${dia}/${mes}/${ano}`;
+
+    }
+
     const row = document.createElement("tr");
 
     row.innerHTML = `
         <td>${income.nome}</td>
         <td>${income.categoria}</td>
-        <td>R$ ${income.valor.toFixed(2)}</td>
-        <td>${income.data}</td>
+        <td>R$ ${Number(income.valor).toFixed(2)}</td>
+        <td>${dataFormatada}</td>
         <td>
             ${income.recorrente ? "Recorrente" : "Único"}
         </td>
@@ -41,6 +53,7 @@ incomes.forEach(income => {
     tbody.appendChild(row);
 
 });
+
 function gerarPDF() {
 
     const { jsPDF } = window.jspdf;
@@ -48,7 +61,12 @@ function gerarPDF() {
     const doc = new jsPDF();
 
     doc.setFontSize(18);
-    doc.text("Relatório de Recebimentos", 14, 20);
+
+    doc.text(
+        "Relatório de Recebimentos",
+        14,
+        20
+    );
 
     doc.autoTable({
         html: "#income-table",
@@ -59,9 +77,13 @@ function gerarPDF() {
     doc.save("recebimentos.pdf");
 
 }
+
 document
     .getElementById("btn-pdf")
-    .addEventListener("click", gerarPDF);
+    .addEventListener(
+        "click",
+        gerarPDF
+    );
 
 document
     .getElementById("salvarReserva")
@@ -75,19 +97,24 @@ document
 
         if (valor <= 0) {
 
-            alert("Digite um valor válido.");
+            alert(
+                "Digite um valor válido."
+            );
 
             return;
 
         }
 
         const reservas = JSON.parse(
-            localStorage.getItem("reservas")
+            localStorage.getItem(
+                "reservas"
+            )
         ) || [];
 
         const outrasReservas =
             reservas.filter(
-                item => item.userId !== user.id
+                item =>
+                    item.userId !== user.id
             );
 
         outrasReservas.push({
@@ -100,12 +127,17 @@ document
 
         localStorage.setItem(
             "reservas",
-            JSON.stringify(outrasReservas)
+            JSON.stringify(
+                outrasReservas
+            )
         );
 
-        const modal = bootstrap.Modal.getInstance(
-            document.getElementById("reservaModal")
-        );
+        const modal =
+            bootstrap.Modal.getInstance(
+                document.getElementById(
+                    "reservaModal"
+                )
+            );
 
         modal.hide();
 
@@ -118,11 +150,15 @@ document
                 "mensagemReserva"
             );
 
-        mensagem.classList.remove("d-none");
+        mensagem.classList.remove(
+            "d-none"
+        );
 
         setTimeout(() => {
 
-            mensagem.classList.add("d-none");
+            mensagem.classList.add(
+                "d-none"
+            );
 
         }, 3000);
 

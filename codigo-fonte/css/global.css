@@ -351,3 +351,7 @@ p {
 .fotoPerfil {
     width: 250px
 }
+.dashboard-chart-card label {
+    color: #092c1f;
+    font-weight: bold;
+}

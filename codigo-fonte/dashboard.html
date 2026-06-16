@@ -27,7 +27,6 @@
 
 <body>
 
-    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-custom">
 
         <div class="container">
@@ -99,7 +98,6 @@
 
     </nav>
 
-    <!-- CONTEÚDO -->
     <main class="main-content">
 
         <div class="container">
@@ -150,6 +148,22 @@
                             Resumo Financeiro
                         </h1>
 
+                        <div class="mb-4">
+
+                            <label for="mesFiltro"
+                                   class="form-label fw-bold">
+
+                                Filtrar por mês
+
+                            </label>
+
+                            <input
+                                type="month"
+                                id="mesFiltro"
+                                class="form-control">
+
+                        </div>
+
                         <canvas id="myChart"></canvas>
 
                         <div class="mt-4 text-dark">
@@ -157,28 +171,28 @@
                             <h5>
                                 Receitas:
                                 <span id="total-income">
-                                    R$ 0
+                                    R$ 0,00
                                 </span>
                             </h5>
 
                             <h5>
                                 Despesas:
                                 <span id="total-expense">
-                                    R$ 0
+                                    R$ 0,00
                                 </span>
                             </h5>
 
                             <h5>
                                 Reserva:
                                 <span id="reserve">
-                                    R$ 0
+                                    R$ 0,00
                                 </span>
                             </h5>
 
                             <h5>
                                 Saldo Disponível:
                                 <span id="balance">
-                                    R$ 0
+                                    R$ 0,00
                                 </span>
                             </h5>
 
@@ -226,10 +240,8 @@
 
     </main>
 
-    <!-- FOOTER -->
     <div id="footer"></div>
 
-    <!-- SCRIPTS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
