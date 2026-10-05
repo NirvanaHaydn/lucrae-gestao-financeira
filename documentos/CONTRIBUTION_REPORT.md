@@ -1,6 +1,6 @@
 # 📊 Relatório de Contribuições do Projeto
 
-**Última atualização:** 28/09/2026 04:02
+**Última atualização:** 05/10/2026 04:25
 
 ---
 
@@ -15,17 +15,21 @@
 | Juli                              |         3 |       417 |        63 |          5 |              0 |               0 |
 | Nirvana Oliveira                  |        20 |      2344 |       334 |         22 |              1 |               0 |
 | Tamires Lima                      |        30 |       566 |       274 |         34 |             25 |               3 |
-| github-actions[bot]               |        77 |       520 |       447 |          3 |             76 |               1 |
+| github-actions[bot]               |        78 |       524 |       451 |          3 |             77 |               1 |
 | github-classroom[bot]             |         1 |       774 |         0 |         19 |              1 |               3 |
 
 
 ## 📅 Contribuições Semanais (Todo o Semestre)
 
+**2026-09-21**: github-actions[bot]: 1
+
 **2026-09-14**: github-actions[bot]: 1
 
 **2026-09-07**: github-actions[bot]: 1
 
-**2026-08-31**: github-actions[bot]: 2
+**2026-08-31**: github-actions[bot]: 1
+
+**2026-08-24**: github-actions[bot]: 1
 
 **2026-08-17**: github-actions[bot]: 1
 
@@ -42,8 +46,6 @@
 **2026-04-27**: João Vitor: 1, Tamires Lima: 1, github-actions[bot]: 1
 
 **2026-04-20**: João Almeida: 1, github-actions[bot]: 1
-
-**2026-04-13**: João Vitor: 1, github-actions[bot]: 1
 
 
 
